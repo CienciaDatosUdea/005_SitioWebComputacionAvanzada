@@ -1,0 +1,67 @@
+/* =========================================================
+   Estilos propios del sitio.
+
+   El tema "just-the-docs" carga este archivo automáticamente
+   al final de sus propios estilos (no hace falta tocar nada
+   del tema ni del Gemfile). Para cambiar la apariencia del
+   sitio, edita este archivo; para agregar contenido, edita
+   los .md como siempre.
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   Tablas del temario (home, contenido, etc.)
+
+   Cada bloque de tabla (Introducción, Python I, ...) es una
+   tabla HTML independiente. Sin un ancho fijo, cada una
+   calcula el ancho de su primera columna según el texto que
+   contiene, y por eso los botones no quedan alineados entre
+   una tabla y otra. Con table-layout: fixed + anchos en %,
+   todas las tablas de la página comparten las mismas
+   columnas, sin importar el texto que tengan.
+   --------------------------------------------------------- */
+.main-content table {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.main-content table th:first-child,
+.main-content table td:first-child {
+  width: 70%;
+}
+
+.main-content table th:last-child,
+.main-content table td:last-child {
+  width: 30%;
+  text-align: center;
+}
+
+.main-content table th,
+.main-content table td {
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  padding: 0.5rem 0.75rem;
+}
+
+.main-content table thead th {
+  letter-spacing: 0.01em;
+}
+
+.main-content table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.035);
+}
+
+/* ---------------------------------------------------------
+   Botones dentro de tablas (Programa, Presentación, Lab, ...)
+
+   Los botones ".btn" del tema son grandes por defecto; dentro
+   de una tabla con muchas filas se ven pesados. Los hacemos
+   más chicos y discretos, como una "etiqueta" de enlace.
+   --------------------------------------------------------- */
+.main-content table .btn {
+  padding: 0.2rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.8;
+  border-radius: 4px;
+}
