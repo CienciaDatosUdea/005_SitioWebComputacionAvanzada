@@ -1,0 +1,74 @@
+# Guía rápida: cómo editar las tablas del sitio (botones y etiquetas)
+
+Esta guía es para agregar o modificar filas en las tablas de `index.md`
+(y de cualquier otro `.md` del sitio) sin romper el formato ni la
+alineación.
+
+## Plantilla base de una tabla
+
+```markdown
+| Nombre de la sección |  |
+|:--|:--:|
+| Nombre del recurso | [Etiqueta del botón](URL){: .btn .btn-green } |
+```
+
+- La primera fila es el título de la sección (columna 1) — la columna 2
+  se deja vacía.
+- La segunda fila `|:--|:--:|` es obligatoria y no se toca: define que
+  hay 2 columnas.
+- Cada fila siguiente es un recurso: nombre a la izquierda, botón a la
+  derecha.
+
+## Colores de botón disponibles
+
+Cambia la clase `.btn-green` por cualquiera de estas:
+
+| Clase              | Color                          |
+|---------------------|---------------------------------|
+| `.btn-green`         | verde (la que se usa por defecto) |
+| `.btn-blue`           | azul                            |
+| `.btn-purple`         | morado                          |
+| `.btn` (sin color)    | gris neutro                     |
+| `.btn .btn-outline`   | solo contorno, sin relleno      |
+
+Ejemplo:
+```markdown
+| Nombre del recurso | [Etiqueta](URL){: .btn .btn-blue } |
+```
+
+## Más de un botón en la misma celda
+
+Sirve para casos como "Laboratorio + Solución". Se ponen los dos
+enlaces seguidos, separados por un espacio:
+
+```markdown
+| Laboratorio 3 | [Lab](URL1){: .btn .btn-green } [Solución](URL2){: .btn .btn-purple } |
+```
+
+Nota: la columna de botones ocupa el 30% del ancho de la tabla (fijado
+en `_sass/custom/custom.scss`). Si vas a usar 2-3 botones por celda de
+forma seguida en varias filas, avisa para ajustar ese ancho (por
+ejemplo a 60/40) y que no queden apretados.
+
+## Etiqueta pequeña en vez de botón (label)
+
+Para marcar algo como "Opcional", "Nuevo", "Avanzado", etc., sin que
+sea un enlace, usa `.label` en vez de `.btn`:
+
+```markdown
+| Tema avanzado | Contenido opcional{: .label .label-yellow } |
+```
+
+Colores disponibles: `.label-green`, `.label-blue`, `.label-purple`,
+`.label-yellow`, `.label-red`.
+
+## Agregar una sección nueva completa
+
+Copia este bloque al final de la tabla y complétalo:
+
+```markdown
+| Nombre de la nueva sección |  |
+|:--|:--:|
+| Nombre del recurso 1 | [Etiqueta](URL){: .btn .btn-green } |
+| Nombre del recurso 2 | [Etiqueta](URL){: .btn .btn-green } |
+```

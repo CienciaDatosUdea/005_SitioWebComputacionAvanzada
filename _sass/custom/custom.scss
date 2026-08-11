@@ -9,6 +9,133 @@
    ========================================================= */
 
 /* ---------------------------------------------------------
+   Paleta institucional (verde UdeA) y modo claro/oscuro.
+
+   Se definen como "variables CSS" (no de Sass) para poder
+   cambiarlas en el navegador con solo alternar el atributo
+   data-theme="dark" en <html> — así funciona el botón de
+   modo oscuro/claro (ver _includes/nav_footer_custom.html),
+   sin tener que recompilar el sitio.
+   --------------------------------------------------------- */
+:root {
+  --udea-green: #0a6631;
+  --udea-green-dark: #054821;
+  --udea-green-light: #e6f2ea;
+
+  --bg: #ffffff;
+  --bg-sidebar: #f7f9f8;
+  --bg-code: #f4f6f5;
+  --text: #27272a;
+  --text-muted: #5b6b62;
+  --border: #e3e8e5;
+  --link: var(--udea-green);
+  --link-hover: var(--udea-green-dark);
+  --row-hover: rgba(10, 102, 49, 0.06);
+}
+
+:root[data-theme="dark"] {
+  --bg: #14171a;
+  --bg-sidebar: #1b1f22;
+  --bg-code: #1f2428;
+  --text: #e7ebe9;
+  --text-muted: #a7b3ad;
+  --border: #2c3237;
+  --link: #4caf78;
+  --link-hover: #79cfa2;
+  --row-hover: rgba(76, 175, 120, 0.1);
+}
+
+body,
+.main-content-wrap,
+.main-content,
+.search-results,
+.search-result {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.side-bar {
+  background-color: var(--bg-sidebar);
+  border-color: var(--border);
+}
+
+.site-header {
+  border-bottom-color: var(--border);
+  border-top: 3px solid var(--udea-green);
+}
+
+.site-nav,
+.site-footer,
+.main-header,
+.main-content hr {
+  border-color: var(--border);
+}
+
+.nav-list-link {
+  color: var(--text);
+}
+
+.nav-list-link.active,
+.nav-list-link:hover {
+  color: var(--udea-green);
+  background-color: var(--udea-green-light);
+}
+
+:root[data-theme="dark"] .nav-list-link.active,
+:root[data-theme="dark"] .nav-list-link:hover {
+  background-color: var(--row-hover);
+}
+
+.main-content a {
+  color: var(--link);
+}
+
+.main-content a:hover {
+  color: var(--link-hover);
+}
+
+.search-input {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+code,
+pre,
+.highlight {
+  background-color: var(--bg-code);
+}
+
+/* Logo: el escudo es una imagen alta (formato vertical);
+   se limita su altura para que quepa bien en el encabezado
+   del menú lateral, sin importar dónde lo renderice el tema. */
+.site-logo,
+.site-header img {
+  max-height: 44px;
+  width: auto;
+}
+
+/* Botón de modo oscuro / claro (ver nav_footer_custom.html) */
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--udea-green);
+  color: var(--udea-green);
+}
+
+/* ---------------------------------------------------------
    Tablas del temario (home, contenido, etc.)
 
    Cada bloque de tabla (Introducción, Python I, ...) es una
@@ -49,7 +176,12 @@
 }
 
 .main-content table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.035);
+  background-color: var(--row-hover);
+}
+
+.main-content table th,
+.main-content table td {
+  border-color: var(--border);
 }
 
 /* ---------------------------------------------------------

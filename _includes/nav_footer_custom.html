@@ -1,0 +1,40 @@
+<!--
+  Este archivo lo carga el tema "just-the-docs" automáticamente
+  al final del menú lateral. Aquí va el botón para alternar
+  entre modo claro y oscuro.
+-->
+<button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Cambiar entre modo claro y oscuro">
+  <span class="theme-toggle-icon">🌙</span>
+  <span class="theme-toggle-text">Modo oscuro</span>
+</button>
+
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    var icon = btn.querySelector('.theme-toggle-icon');
+    var text = btn.querySelector('.theme-toggle-text');
+
+    function render(theme) {
+      if (theme === 'dark') {
+        icon.textContent = '☀️';
+        text.textContent = 'Modo claro';
+      } else {
+        icon.textContent = '🌙';
+        text.textContent = 'Modo oscuro';
+      }
+    }
+
+    render(document.documentElement.getAttribute('data-theme') || 'light');
+
+    btn.addEventListener('click', function () {
+      var current = document.documentElement.getAttribute('data-theme') || 'light';
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try {
+        localStorage.setItem('udea-color-theme', next);
+      } catch (e) {}
+      render(next);
+    });
+  })();
+</script>

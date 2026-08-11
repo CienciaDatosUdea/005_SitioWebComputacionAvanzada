@@ -1,0 +1,18 @@
+<!--
+  Este archivo lo carga el tema "just-the-docs" automáticamente
+  dentro del <head> de cada página. Aquí van cosas que no
+  dependen del contenido: favicon y el script que aplica el
+  modo claro/oscuro guardado por el usuario.
+-->
+<link rel="icon" type="image/webp" href="{{ '/assets/images/Escudo-UdeA.svg.webp' | relative_url }}">
+
+<script>
+  // Aplica el tema guardado ANTES de pintar la página, para
+  // evitar el parpadeo de "claro y luego oscuro" al cargar.
+  (function () {
+    try {
+      var theme = localStorage.getItem('udea-color-theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+</script>
