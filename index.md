@@ -8,16 +8,6 @@ permalink: /
 ---
 
 
-
-
-# Aprendizaje estadístico 
-{: .fs-9 }
-
-Este es la web del curso de aprendizaje estadístico del instituto de física de la Universidad de Antioquia
-{: .fs-6 .fw-300 }
-
-En las tablas se incluyen los enlaces a los laboratorios, notas de clase y actividades a realizar durante el semestre.
-
 ## Computación Científica Avanzada
 
 *Próximamente: enlaces a laboratorios, notas de clase y material de este curso.*
