@@ -55,6 +55,18 @@ body,
   color: var(--text);
 }
 
+/* El tema fija el color de los títulos directo sobre h1-h6
+   (color: #27262b), en vez de heredarlo del contenedor: por
+   eso quedaban oscuros/invisibles al pasar a modo oscuro. */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--text);
+}
+
 .side-bar {
   background-color: var(--bg-sidebar);
   border-color: var(--border);
