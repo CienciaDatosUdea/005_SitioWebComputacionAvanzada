@@ -67,9 +67,15 @@ body,
 
 .site-nav,
 .site-footer,
-.main-header,
-.main-content hr {
+.main-header {
   border-color: var(--border);
+}
+
+/* El tema pinta la línea "---" con background-color (no con
+   border), así que un simple "border-color" no la cambia: sin
+   esto queda una barra clara fija encima del fondo oscuro. */
+.main-content hr {
+  background-color: var(--border);
 }
 
 .nav-list-link {
@@ -115,15 +121,19 @@ body,
   color: var(--text);
 }
 
-/* Los bloques de código del tema (pre.highlight / .highlight pre)
-   usan selectores más específicos que un simple "pre" o
-   ".highlight", así que hay que repetirlos igual para poder
-   cambiarles el fondo. */
+/* Los bloques de código del tema (pre.highlight / .highlight pre /
+   div.highlighter-rouge) y el código en línea (:not(pre, figure) >
+   code) usan selectores más específicos que un simple "pre" o
+   "code", así que hay que repetirlos igual para poder cambiarles
+   el fondo. */
 code,
 pre,
 .highlight,
 pre.highlight,
-.highlight pre {
+.highlight pre,
+:not(pre, figure) > code,
+div.highlighter-rouge,
+figure.highlight {
   background-color: var(--bg-code);
 }
 
@@ -219,11 +229,17 @@ pre.highlight,
   text-align: center;
 }
 
+/* El tema pone fondo blanco fijo en TODAS las celdas
+   (regla genérica "th, td { background-color: #fff }"): sin
+   este override, en modo oscuro el texto queda claro sobre
+   fondo blanco y prácticamente no se lee. */
 .main-content table th,
 .main-content table td {
   vertical-align: middle;
   overflow-wrap: break-word;
   padding: 0.5rem 0.75rem;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 .main-content table thead th {
