@@ -48,6 +48,7 @@
 body,
 .main-content-wrap,
 .main-content,
+.main-header,
 .search-results,
 .search-result {
   background-color: var(--bg);
@@ -75,14 +76,29 @@ body,
   color: var(--text);
 }
 
-.nav-list-link.active,
-.nav-list-link:hover {
+/* El tema pinta el hover/activo del menú con un degradado
+   (background-image) en un selector muy específico; si no se
+   repite ese mismo selector exacto, el degradado del tema gana
+   y deja un parche claro encima del fondo oscuro. */
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: none;
+  background-color: var(--udea-green-light);
   color: var(--udea-green);
+}
+
+:root[data-theme="dark"] .nav-list .nav-list-item .nav-list-link:hover,
+:root[data-theme="dark"] .nav-list .nav-list-item .nav-list-link.active {
+  background-color: var(--row-hover);
+  color: var(--link);
+}
+
+.site-title:hover {
+  background-image: none;
   background-color: var(--udea-green-light);
 }
 
-:root[data-theme="dark"] .nav-list-link.active,
-:root[data-theme="dark"] .nav-list-link:hover {
+:root[data-theme="dark"] .site-title:hover {
   background-color: var(--row-hover);
 }
 
@@ -99,19 +115,47 @@ body,
   color: var(--text);
 }
 
+/* Los bloques de código del tema (pre.highlight / .highlight pre)
+   usan selectores más específicos que un simple "pre" o
+   ".highlight", así que hay que repetirlos igual para poder
+   cambiarles el fondo. */
 code,
 pre,
-.highlight {
+.highlight,
+pre.highlight,
+.highlight pre {
   background-color: var(--bg-code);
 }
 
-/* Logo: el escudo es una imagen alta (formato vertical);
-   se limita su altura para que quepa bien en el encabezado
-   del menú lateral, sin importar dónde lo renderice el tema. */
-.site-logo,
-.site-header img {
+/* Logo: el escudo es una imagen alta (formato vertical), así
+   que se limita su altura para que quepa bien en el encabezado
+   del menú lateral. Ojo: no tocar "width" acá — el tema pone
+   el logo como fondo (background-image) de una casilla vacía
+   con width/height: 100%; si se fuerza "width: auto" esa
+   casilla queda sin contenido, se colapsa a 0 y el logo
+   desaparece. */
+.site-logo {
   max-height: 44px;
-  width: auto;
+}
+
+/* ---------------------------------------------------------
+   Ancho del menú lateral en pantallas muy anchas.
+
+   El propio tema va agrandando el menú lateral a partir de
+   1064px de ancho de ventana (fórmula calc() pensada para
+   centrar el contenido en monitores grandes), lo que lo hace
+   ver desproporcionadamente ancho. Se fija a un ancho cómodo
+   y constante, y se ajusta el margen del contenido para que
+   sigan calzando uno con otro.
+   --------------------------------------------------------- */
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: 264px;
+  }
+
+  .main {
+    margin-left: 264px;
+  }
 }
 
 /* Botón de modo oscuro / claro (ver nav_footer_custom.html) */
