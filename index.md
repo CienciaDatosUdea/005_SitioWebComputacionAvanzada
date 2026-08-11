@@ -18,6 +18,12 @@ Este es la web del curso de aprendizaje estadístico del instituto de física de
 
 En las tablas se incluyen los enlaces a los laboratorios, notas de clase y actividades a realizar durante el semestre.
 
+## Computación Científica Avanzada
+
+*Próximamente: enlaces a laboratorios, notas de clase y material de este curso.*
+
+## Aprendizaje Estadístico
+
 | Introducción |  |
 |:--|:--:|
 | Programa del curso | [Programa 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Programa/ProgramaAE.pdf){: .btn .btn-green } |

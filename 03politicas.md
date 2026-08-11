@@ -44,3 +44,17 @@ Tres fases:
 ### Entregas
 - Las entregas de los laboratorios deben realizarse a través de GitHub, 8 días después de ser asignados.
 - Se valorará la **asistencia** a clase y la **proactividad** durante el curso.
+
+---
+
+# Computación Científica Avanzada
+
+### Evaluación
+La evaluación será continua, formativa y orientada al mejoramiento del aprendizaje, mediante autoevaluación, coevaluación, heteroevaluación y evaluación entre pares.
+
+| **Momentos de Evaluación** | **Porcentajes** |
+|-----------------------------|------------------|
+| Laboratorios                | 25%              |
+| Proyectos                   | 25%              |
+| Exposiciones                | 20%              |
+| Parcial                     | 30%              |

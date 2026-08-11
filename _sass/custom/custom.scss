@@ -135,7 +135,18 @@ pre.highlight,
    casilla queda sin contenido, se colapsa a 0 y el logo
    desaparece. */
 .site-logo {
-  max-height: 44px;
+  max-height: 58px;
+}
+
+/* El tema limita el encabezado del menú lateral a 60px de alto
+   a partir de escritorio (min-width: 50rem), lo que recorta un
+   escudo más grande. Se agranda un poco ese encabezado para
+   que el logo quepa completo, sin recortarse. */
+@media (min-width: 50rem) {
+  .site-header {
+    height: 76px;
+    max-height: 76px;
+  }
 }
 
 /* ---------------------------------------------------------
