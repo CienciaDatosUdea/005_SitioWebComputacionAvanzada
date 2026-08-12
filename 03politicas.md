@@ -29,7 +29,7 @@ nav_order: 3
 # Computación Científica Avanzada
 
 ### Evaluación
-La evaluación será continua, formativa y orientada al mejoramiento del aprendizaje, mediante autoevaluación, coevaluación, heteroevaluación y evaluación entre pares.
+La evaluación será continua, formativa y orientada al mejoramiento del aprendizaje, mediante autoevaluación, coevaluación. El uso de la IA debe ser declarado. 
 
 
 
