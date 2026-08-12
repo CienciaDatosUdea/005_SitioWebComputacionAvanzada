@@ -11,7 +11,6 @@ permalink: /
 
 ## Computación Científica Avanzada
 
-*Próximamente: enlaces a laboratorios, notas de clase y material de este curso.*
 
 
 | Introducción |  |
