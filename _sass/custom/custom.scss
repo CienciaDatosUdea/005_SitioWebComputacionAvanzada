@@ -22,24 +22,24 @@
   --udea-green-dark: #054821;
   --udea-green-light: #e6f2ea;
 
-  --bg: #ffffff;
-  --bg-sidebar: #f7f9f8;
-  --bg-code: #f4f6f5;
+  --bg: #f2f8f4;
+  --bg-sidebar: #e9f4ed;
+  --bg-code: #e9f2ec;
   --text: #27272a;
   --text-muted: #5b6b62;
-  --border: #e3e8e5;
+  --border: #d3e6da;
   --link: var(--udea-green);
   --link-hover: var(--udea-green-dark);
-  --row-hover: rgba(10, 102, 49, 0.06);
+  --row-hover: rgba(10, 102, 49, 0.08);
 }
 
 :root[data-theme="dark"] {
-  --bg: #14171a;
-  --bg-sidebar: #1b1f22;
-  --bg-code: #1f2428;
+  --bg: #121915;
+  --bg-sidebar: #182019;
+  --bg-code: #1b2320;
   --text: #e7ebe9;
   --text-muted: #a7b3ad;
-  --border: #2c3237;
+  --border: #28332c;
   --link: #4caf78;
   --link-hover: #79cfa2;
   --row-hover: rgba(76, 175, 120, 0.1);
@@ -65,21 +65,6 @@ body,
 .main-content h5,
 .main-content h6 {
   color: var(--text);
-}
-
-/* Toque verde institucional en los títulos de sección del
-   contenido (a la derecha), como una etiqueta suave, igual al
-   resaltado verde que ya tiene el ítem activo del menú (a la
-   izquierda) — para que ambos lados combinen. */
-.main-content h2 {
-  display: inline-block;
-  padding: 0.15rem 0.75rem;
-  background-color: var(--udea-green-light);
-  border-radius: 6px;
-}
-
-:root[data-theme="dark"] .main-content h2 {
-  background-color: var(--row-hover);
 }
 
 .side-bar {
