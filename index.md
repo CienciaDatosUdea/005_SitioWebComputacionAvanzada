@@ -19,7 +19,7 @@ permalink: /
 | Programa del curso | [Programa 1](https://cienciadatosudea.github.io/005_SitioWebComputacionAvanzada/02Contenido.html){: .btn .btn-green } |
 
 
-| Introducción a los sistemas Agenticos |  |
+| Introducción a los sistemas Agénticos |  |
 |:--|:--:|
 | Agentes | [Presentación](){: .btn .btn-green } |
 | Laboratorio 1  | [Lab 1](){: .label-blue } |

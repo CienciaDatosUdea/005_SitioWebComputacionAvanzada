@@ -31,9 +31,11 @@ nav_order: 3
 ### Evaluación
 La evaluación será continua, formativa y orientada al mejoramiento del aprendizaje, mediante autoevaluación, coevaluación, heteroevaluación y evaluación entre pares.
 
-| **Momentos de Evaluación** | **Porcentajes** |
+
+
+| **Momentos de Evaluación 1** | **Porcentajes** |
 |-----------------------------|------------------|
-| Laboratorios                | 25%              |
-| Proyectos                   | 25%              |
+| Laboratorios                | 15%              |
+| Retos                       | 20%              |
 | Exposiciones                | 20%              |
-| Parcial                     | 30%              |
+| Parcial                     | 20%              |
