@@ -83,6 +83,13 @@ body,
   border-color: var(--border);
 }
 
+/* Misma rayita verde sutil arriba del recuadro de la izquierda
+   (.site-header, con el escudo), pero en el recuadro grande de
+   la derecha, para que los dos recuadros combinen. */
+.main-header {
+  border-top: 3px solid var(--udea-green);
+}
+
 /* El tema pinta la línea "---" con background-color (no con
    border), así que un simple "border-color" no la cambia: sin
    esto queda una barra clara fija encima del fondo oscuro. */
