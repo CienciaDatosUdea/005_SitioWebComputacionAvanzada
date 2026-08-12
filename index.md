@@ -8,9 +8,10 @@ permalink: /
 ---
 
 
+
 ## Computación Científica Avanzada
 
-*Próximamente: enlaces a laboratorios, notas de clase y material de este curso.*
+*sssPróximamente: enlaces a laboratorios, notas de clase y material de este curso.*
 
 ## Aprendizaje Estadístico
 
