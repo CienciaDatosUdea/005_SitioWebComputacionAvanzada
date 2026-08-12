@@ -22,24 +22,24 @@
   --udea-green-dark: #054821;
   --udea-green-light: #e6f2ea;
 
-  --bg: #f2f8f4;
-  --bg-sidebar: #e9f4ed;
-  --bg-code: #e9f2ec;
+  --bg: #ffffff;
+  --bg-sidebar: #f7f9f8;
+  --bg-code: #f4f6f5;
   --text: #27272a;
   --text-muted: #5b6b62;
-  --border: #d3e6da;
+  --border: #e3e8e5;
   --link: var(--udea-green);
   --link-hover: var(--udea-green-dark);
-  --row-hover: rgba(10, 102, 49, 0.08);
+  --row-hover: rgba(10, 102, 49, 0.06);
 }
 
 :root[data-theme="dark"] {
-  --bg: #121915;
-  --bg-sidebar: #182019;
-  --bg-code: #1b2320;
+  --bg: #14171a;
+  --bg-sidebar: #1b1f22;
+  --bg-code: #1f2428;
   --text: #e7ebe9;
   --text-muted: #a7b3ad;
-  --border: #28332c;
+  --border: #2c3237;
   --link: #4caf78;
   --link-hover: #79cfa2;
   --row-hover: rgba(76, 175, 120, 0.1);
