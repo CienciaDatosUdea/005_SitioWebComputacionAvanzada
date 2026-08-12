@@ -11,9 +11,8 @@ permalink: /
 
 ## Computación Científica Avanzada
 
-*sssPróximamente: enlaces a laboratorios, notas de clase y material de este curso.*
+*Próximamente: enlaces a laboratorios, notas de clase y material de este curso.*
 
-## Aprendizaje Estadístico
 
 | Introducción |  |
 |:--|:--:|

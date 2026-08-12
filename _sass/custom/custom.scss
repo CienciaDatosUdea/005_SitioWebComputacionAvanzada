@@ -67,6 +67,21 @@ body,
   color: var(--text);
 }
 
+/* Toque verde institucional en los títulos de sección del
+   contenido (a la derecha), como una etiqueta suave, igual al
+   resaltado verde que ya tiene el ítem activo del menú (a la
+   izquierda) — para que ambos lados combinen. */
+.main-content h2 {
+  display: inline-block;
+  padding: 0.15rem 0.75rem;
+  background-color: var(--udea-green-light);
+  border-radius: 6px;
+}
+
+:root[data-theme="dark"] .main-content h2 {
+  background-color: var(--row-hover);
+}
+
 .side-bar {
   background-color: var(--bg-sidebar);
   border-color: var(--border);
