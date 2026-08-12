@@ -157,17 +157,17 @@ figure.highlight {
    casilla queda sin contenido, se colapsa a 0 y el logo
    desaparece. */
 .site-logo {
-  max-height: 58px;
+  max-height: 100px;
 }
 
 /* El tema limita el encabezado del menú lateral a 60px de alto
    a partir de escritorio (min-width: 50rem), lo que recorta un
-   escudo más grande. Se agranda un poco ese encabezado para
-   que el logo quepa completo, sin recortarse. */
+   escudo más grande. Se agranda ese encabezado para que el
+   logo quepa completo, sin recortarse. */
 @media (min-width: 50rem) {
   .site-header {
-    height: 76px;
-    max-height: 76px;
+    height: 120px;
+    max-height: 120px;
   }
 }
 
@@ -279,4 +279,33 @@ figure.highlight {
   font-size: 0.75rem;
   line-height: 1.8;
   border-radius: 4px;
+}
+
+/* El .btn-green del tema es un verde azulado brillante (con
+   degradado y sombra) que no combina con el verde institucional
+   del escudo/menú; y el .btn-blue es un azul muy saturado que
+   choca al lado de ese verde. Se reemplazan por tonos planos
+   que armonizan entre sí. */
+.btn-green {
+  background-color: var(--udea-green);
+  background-image: none;
+  box-shadow: none;
+}
+
+.btn-green:hover,
+.btn-green.zeroclipboard-is-hover {
+  background-color: var(--udea-green-dark);
+  background-image: none;
+}
+
+.btn-blue {
+  background-color: #2b6f8f;
+  background-image: none;
+  box-shadow: none;
+}
+
+.btn-blue:hover,
+.btn-blue.zeroclipboard-is-hover {
+  background-color: #235a73;
+  background-image: none;
 }
