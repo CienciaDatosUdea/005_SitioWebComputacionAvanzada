@@ -135,6 +135,15 @@ body,
   color: var(--link-hover);
 }
 
+/* Los botones (.btn-green, .btn-blue, ...) también son <a>, así
+   que la regla de arriba les pintaba el texto del mismo color
+   que el fondo (verde sobre verde = invisible). Se les devuelve
+   el texto blanco. */
+.main-content a.btn,
+.main-content a.btn:hover {
+  color: #fff;
+}
+
 .search-input {
   background-color: var(--bg);
   color: var(--text);
@@ -175,6 +184,23 @@ figure.highlight {
   .site-header {
     height: 120px;
     max-height: 120px;
+  }
+}
+
+/* La rayita verde de arriba del recuadro grande (.main-header)
+   no llegaba de lado a lado porque el tema limita ".main" (el
+   recuadro completo) a 800px de ancho, dejando un espacio en
+   blanco a la derecha sin la línea. Se quita ese límite del
+   recuadro y se pasa solo al texto del contenido, para que siga
+   leyéndose cómodo pero el recuadro (y su borde verde) ocupen
+   todo el ancho disponible. */
+@media (min-width: 50rem) {
+  .main {
+    max-width: none;
+  }
+
+  .main-content-wrap {
+    max-width: 800px;
   }
 }
 
