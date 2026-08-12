@@ -13,7 +13,7 @@ nav_order: 3
 - **Aula:** 5-104
 
 ### Horarios de Atención
-- **Hernan:** Miércoles (Horario por confirmar)
+- **Hernan:** (Horario por confirmar)
 
 ### Uso de Computadores
 - Se sugiere que algunos estudiantes traigan su propio computador para las clases y laboratorios, 
@@ -21,21 +21,8 @@ nav_order: 3
 
 
 ### Entregas
-- Las entregas de los laboratorios deben realizarse a través de GitHub, 8 días después de ser asignados.
+- Las entregas de los laboratorios deben realizarse a través de GitHub
 - Se valorará la **asistencia** a clase y la **proactividad** durante el curso.
 
 
 
-# Computación Científica Avanzada
-
-### Evaluación
-La evaluación será continua, formativa y orientada al mejoramiento del aprendizaje, mediante autoevaluación, coevaluación. El uso de la IA debe ser declarado. 
-
-
-
-| **Momentos de Evaluación 1** | **Porcentajes** |
-|-----------------------------|------------------|
-| Laboratorios                | 15%              |
-| Retos                       | 20%              |
-| Exposiciones                | 20%              |
-| Parcial                     | 20%              |

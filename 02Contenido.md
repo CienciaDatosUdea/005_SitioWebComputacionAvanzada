@@ -73,14 +73,15 @@ La evaluación será continua, formativa y orientada al mejoramiento del aprendi
 
 El curso aporta a la formación disciplinar, investigativa y computacional, mediante la formulación de problemas físicos, el uso crítico de modelos de inteligencia artificial, el análisis de resultados y la comunicación de proyectos científicos.
 
-### Momentos de evaluación
 
-| **Momentos de Evaluación** | **Porcentajes** |
+
+| **Momentos de Evaluación 1** | **Porcentajes** |
 |-----------------------------|------------------|
-| Laboratorios                | 25%              |
-| Proyectos                   | 25%              |
+| Laboratorios                | 15%              |
+| Retos                       | 20%              |
 | Exposiciones                | 20%              |
-| Parcial                     | 30%              |
+| Parcial                     | 20%              |
+
 
 ## Bibliografía y otras fuentes
 
