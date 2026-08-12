@@ -15,8 +15,8 @@ permalink: /
 
 | Introducción |  |
 |:--|:--:|
-| Programa del curso | [Programa 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Programa/ProgramaAE.pdf){: .btn .btn-green } |
 | Introduccion | [Presentación](https://docs.google.com/presentation/d/16q3KdMbeZzP97tvMJv7D5PPYRctDQzpG/edit?usp=sharing&ouid=113907049151858803895&rtpof=true&sd=true){: .btn .btn-green } |
+| Programa del curso | [Programa 1](https://cienciadatosudea.github.io/005_SitioWebComputacionAvanzada/02Contenido.html){: .btn .btn-green } |
 
 
 <!-- | Mlops | [Mlops 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/imagenes/Sesion_03_pandas.gif?raw=true){: .btn .btn-blue } |
