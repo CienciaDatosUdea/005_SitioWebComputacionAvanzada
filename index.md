@@ -15,7 +15,6 @@ permalink: /
 
 | Introducción |  |
 |:--|:--:|
-
 | Introduccion | [Presentación](https://docs.google.com/presentation/d/16q3KdMbeZzP97tvMJv7D5PPYRctDQzpG/edit?usp=sharing&ouid=113907049151858803895&rtpof=true&sd=true){: .btn .btn-green } |
 | Programa del curso | [Programa 1](https://cienciadatosudea.github.io/005_SitioWebComputacionAvanzada/02Contenido.html){: .btn .btn-green } |
 | GuiaEnterega | [Guia](https://docs.google.com/presentation/d/1lYdyS2qOOFoP_GhDd8Zov7K7urwOlJk5/edit?usp=sharing&ouid=113907049151858803895&rtpof=true&sd=true){: .btn .btn-green } |
