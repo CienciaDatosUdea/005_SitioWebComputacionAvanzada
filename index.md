@@ -26,11 +26,22 @@ permalink: /
 | Laboratorio 1  | [Lab 1](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/tree/main/Laboratorios/01_LabPatronesAgente){: .label-blue } |
 
 
-
 | Introducción a los sistemas Agénticos 2|  |
 |:--|:--:|
 | Agentes 2| [Presentación](https://docs.google.com/presentation/d/1_x5Vr0r7FUq-u-vIHe8TQNZwWO8zmoNFuZT5tlVo_uo/edit?usp=sharing){: .btn .btn-green } |
 | Laboratorio 2  | [Lab 2](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/tree/main/Sesiones/Sesion03){: .label-blue } |
+
+
+
+| Modelos generativos vs Discriminativos|  |
+|:--|:--:|
+| Problema General| [Presentación](https://docs.google.com/presentation/d/1XzllDyfle6xxu3SGeL8BFOtm9MR-Tz-dehWe56FSvLY/edit?usp=sharing){: .btn .btn-green } |
+| Sesion 3  | [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion04_DiscriminativosVsGenerativos_I.ipynb
+){: .label-blue } |
+| Laboratorio 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/03_Lab_naive_bayes.ipynb){: .label-blue } |
+
+
+
 
 
 
