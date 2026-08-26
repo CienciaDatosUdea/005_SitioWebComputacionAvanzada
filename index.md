@@ -36,9 +36,8 @@ permalink: /
 | Modelos generativos vs Discriminativos|  |
 |:--|:--:|
 | Problema General| [Presentación](https://docs.google.com/presentation/d/1XzllDyfle6xxu3SGeL8BFOtm9MR-Tz-dehWe56FSvLY/edit?usp=sharing){: .btn .btn-green } |
-| Sesion 3  | [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion04_DiscriminativosVsGenerativos_I.ipynb
-){: .label-blue } |
-| Laboratorio 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/03_Lab_naive_bayes.ipynb){: .label-blue } |
+| Sesion 3  | [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion04_DiscriminativosVsGenerativos_I.ipynb){: .label-blue } |
+| Lab 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/03_Lab_naive_bayes.ipynb){: .label-blue } |
 
 
 
