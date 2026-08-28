@@ -41,6 +41,16 @@ permalink: /
 
 
 
+| Modelos Discriminativos|  |
+|:--|:--:|
+| Preentacion| [Presentación](https://docs.google.com/presentation/d/1lEfd7KiIgk8HiOpS26XuxDXBJ4jDYKaZXBfCAmMdBLI/edit?usp=sharing){: .btn .btn-green } |
+| Lab Teórico 3  | [PDF](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/04_Lab_regresion_y_clasificacion.pdf){: .label-blue } |
+| Lab 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/05_Lab_regresion_y_clasificacion.ipynb){: .label-blue } |
+
+
+
+
+
 
 
 
