@@ -40,13 +40,16 @@ permalink: /
 | Lab 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/03_Lab_naive_bayes.ipynb){: .label-blue } |
 
 
-
 | Modelos Discriminativos|  |
 |:--|:--:|
-| Preentacion| [Presentación](https://docs.google.com/presentation/d/1lEfd7KiIgk8HiOpS26XuxDXBJ4jDYKaZXBfCAmMdBLI/edit?usp=sharing){: .btn .btn-green } |
+| Presentacion| [Presentación](https://docs.google.com/presentation/d/1lEfd7KiIgk8HiOpS26XuxDXBJ4jDYKaZXBfCAmMdBLI/edit?usp=sharing){: .btn .btn-green } |
 | Lab Teórico 3  | [PDF](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/04_Lab_regresion_y_clasificacion.pdf){: .label-blue } |
-| Lab 3  | [Lab 3](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/05_Lab_regresion_y_clasificacion.ipynb){: .label-blue } |
+| Lab 4  | [Lab 4](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/05_Lab_regresion_y_clasificacion.ipynb){: .label-blue } |
 
+| Redes Neuronales|  |
+|:--|:--:|
+| Presentacion| [Presentación](https://docs.google.com/presentation/d/1jzQqoKc2v0TOKj-f5zdav8OclI5NkQkGQAvBL7dlwZM/edit?usp=sharing){: .btn .btn-green } |
+| Lab práctico 6 | [NN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/06_Lab_NN.ipynb){: .label-blue } |
 
 
 
