@@ -10,7 +10,7 @@ permalink: /
 
 
 ## Computación Científica Avanzada
-
+https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 
 
 | Introducción |  |
