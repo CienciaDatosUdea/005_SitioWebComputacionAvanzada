@@ -53,6 +53,15 @@ permalink: /
 
 
 
+| Redes Neuronales|  |
+|:--|:--:|
+| Presentacion| [Presentación](https://docs.google.com/presentation/d/1huMA_GkFXyFwPOLSz4Puv-bZ1n1QqtNYq0wQL-V6Qhk/edit?usp=sharing){: .btn .btn-green } |
+| Lab práctico 7 | [NN](){: .label-blue } |
+| NN desde cero | [NN](){: .label-blue } |
+| NN pytorch | [NN](){: .label-blue } |
+| Ising | [NN](){: .label-blue } |
+
+
 
 
 
