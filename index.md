@@ -57,7 +57,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 |:--|:--:|
 | Presentacion| [Presentación](https://docs.google.com/presentation/d/1huMA_GkFXyFwPOLSz4Puv-bZ1n1QqtNYq0wQL-V6Qhk/edit?usp=sharing){: .btn .btn-green } |
 | Lab práctico 7 | [NN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/07_cLab_TcEstudiante.ipynb){: .label-blue } |
-| NN desde cero | [NN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/07_aNN_Cero.ipynb){: .label-blue } |
+| NN desde cero | [NN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion07_aNN_Cero.ipynb){: .label-blue } |
 | Ising | [NN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion07_bDatos_Ising.ipynb){: .label-blue } |
 
 
