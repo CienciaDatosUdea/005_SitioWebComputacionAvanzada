@@ -62,6 +62,12 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 
 
 
+| CNN|  |
+|:--|:--:|
+| Presentacion| [Presentación](https://docs.google.com/presentation/d/1BWSx8s2HXkaB8o83tuutztKZvKNxEYiiwRMVkk0Tjy8/edit?usp=sharing){: .btn .btn-green } |
+| Ising CNN| [Modelo Ising CNN](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/08_Lab_CNN_Ising_Keras.ipynb){: .label-blue } |
+
+
 
 
 
