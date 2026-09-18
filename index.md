@@ -74,6 +74,10 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 
 
 
+| Metodo Variacional neuronal|  |
+|:--|:--:|
+| Presentacion| [Presentación](https://docs.google.com/presentation/d/1RynumguNIICWREv-_WBfjAPchxQtq4aCRbkc2my3Czw/edit?usp=sharing){: .btn .btn-green } |
+
 
 
 
