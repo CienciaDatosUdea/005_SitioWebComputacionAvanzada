@@ -78,6 +78,11 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 |:--|:--:|
 | Presentacion| [Presentación](https://docs.google.com/presentation/d/1RynumguNIICWREv-_WBfjAPchxQtq4aCRbkc2my3Czw/edit?usp=sharing){: .btn .btn-green } |
 
+| Modelos Basados en energía|  |
+|:--|:--:|
+| Fundamentación| [Presentación](https://docs.google.com/presentation/d/1ZmZaohJvLyRF3ukgWO_NV-1ePWUviK_xyu3xN0hZ6Y8/edit?usp=sharing){: .btn .btn-green } |
+|Hopfield Laboratorio| [Lab](){: .btn .btn-green } |
+
 
 
 
