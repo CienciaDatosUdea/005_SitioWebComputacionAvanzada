@@ -86,6 +86,13 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 | Enunciado Reto | [Reto](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/FCC_Reto.pdf){: .btn .btn-green } |
 
 
+| Modelos Basados en energía|  |
+|:--|:--:|
+| Introduccion 1| [Presentación](https://docs.google.com/presentation/d/11omYnYaRf4nsKV9bcYtQxWNfPnh7GOhLWaZKSfKtRwA/edit?usp=sharing
+){: .btn .btn-green } |
+| Score modeling| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion10_Score_Model.ipynb){: .btn .btn-green } |
+| Dinamica de langevine| [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/10_Lab_langevineP.ipynb){: .btn .btn-green } |
+
 
 
 
