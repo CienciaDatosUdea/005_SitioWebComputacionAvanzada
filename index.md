@@ -88,8 +88,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 
 | Modelos Basados en energía|  |
 |:--|:--:|
-| Introduccion 1| [Presentación](https://docs.google.com/presentation/d/11omYnYaRf4nsKV9bcYtQxWNfPnh7GOhLWaZKSfKtRwA/edit?usp=sharing
-){: .btn .btn-green } |
+| Introduccion 1| [Presentación](https://docs.google.com/presentation/d/11omYnYaRf4nsKV9bcYtQxWNfPnh7GOhLWaZKSfKtRwA/edit?usp=sharing){: .btn .btn-green } |
 | Score modeling| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion10_Score_Model.ipynb){: .btn .btn-green } |
 | Dinamica de langevine| [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/10_Lab_langevineP.ipynb){: .btn .btn-green } |
 | Continuacion Langevine| [Presentación](https://docs.google.com/presentation/d/1648xhJuVNUEZxtB4_ISBgp5Kmw6-u_z7byFQuuWVzpU/edit?usp=sharing){: .btn .btn-green } |
