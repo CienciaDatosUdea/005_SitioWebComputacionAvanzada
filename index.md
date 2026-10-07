@@ -92,7 +92,8 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 ){: .btn .btn-green } |
 | Score modeling| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion10_Score_Model.ipynb){: .btn .btn-green } |
 | Dinamica de langevine| [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/10_Lab_langevineP.ipynb){: .btn .btn-green } |
-
+| Continuacion Langevine| [Presentación](https://docs.google.com/presentation/d/1648xhJuVNUEZxtB4_ISBgp5Kmw6-u_z7byFQuuWVzpU/edit?usp=sharing){: .btn .btn-green } |
+| Lab difusion model| [Mat](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/11_Lab_LagevineII_A.ipynb){: .btn .btn-green } |
 
 
 
