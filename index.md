@@ -86,7 +86,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 | Enunciado Reto | [Reto](https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/FCC_Reto.pdf){: .btn .btn-green } |
 
 
-| Modelos Basados en energía|  |
+|Difusion|  |
 |:--|:--:|
 | Introduccion 1| [Presentación](https://docs.google.com/presentation/d/11omYnYaRf4nsKV9bcYtQxWNfPnh7GOhLWaZKSfKtRwA/edit?usp=sharing){: .btn .btn-green } |
 | Score modeling| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion10_Score_Model.ipynb){: .btn .btn-green } |
@@ -96,6 +96,10 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 
 
 
+| PINN|  |
+|:--|:--:|
+| Introduccion 1| [Presentación](https://docs.google.com/presentation/d/1-aoFZjpVHnN_aRGlMV9otwvis9kGnTlBaf8oKnb_eZE/edit?usp=sharing){: .btn .btn-green } |
+| Score modeling| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/Sesion10_Score_Model.ipynb){: .btn .btn-green } |
 
 <!-- | Mlops | [Mlops 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/imagenes/Sesion_03_pandas.gif?raw=true){: .btn .btn-blue } |
 | Guía de entrega de tareas | [Github](https://docs.google.com/presentation/d/1-S9rPT4xcAzL3UvNJJh1y8t30k93kXqT/edit?usp=sharing&ouid=113907049151858803895&rtpof=true&sd=true){: .btn .btn-green } |
