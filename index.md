@@ -100,7 +100,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 |:--|:--:|
 | Introduccion 1| [Presentación](https://docs.google.com/presentation/d/1-aoFZjpVHnN_aRGlMV9otwvis9kGnTlBaf8oKnb_eZE/edit?usp=sharing){: .btn .btn-green } |
 | Pinns| [Lab](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/12_Lab_PinnsI.ipynb){: .btn .btn-green } |
-| Pinns 2| [Lab 2](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/12_Lab_PinnsI.ipynb){: .btn .btn-green } |
+| Pinns 2| [Lab 2](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/13_Lab_PinnsII.ipynb){: .btn .btn-green } |
 
 
 
