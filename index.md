@@ -109,6 +109,12 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 | Repaso| [Presentación](https://docs.google.com/presentation/d/1Jr3sqp2OfDV_0u3rUx43-vSpd9YQbvPhhnawXi8PGvs/edit?usp=sharing){: .btn .btn-green } |
 
 
+| GNN|  |
+|:--|:--:|
+| Fundamentos| [Presentación](https://drive.google.com/file/d/1H0sGLkDGpLBG3-_CFpdxe1SFXlfeLulY/view?usp=drive_link){: .btn .btn-green } |
+| Grafos ML| [Sesion](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/U4_S1_Grafos_ML.ipynb){: .btn .btn-green } |
+
+
 <!-- | Mlops | [Mlops 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/imagenes/Sesion_03_pandas.gif?raw=true){: .btn .btn-blue } |
 | Guía de entrega de tareas | [Github](https://docs.google.com/presentation/d/1-S9rPT4xcAzL3UvNJJh1y8t30k93kXqT/edit?usp=sharing&ouid=113907049151858803895&rtpof=true&sd=true){: .btn .btn-green } |
 | Introducción | [Introducción 1](https://colab.research.google.com/github/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/Sesion_00a_introduccion_v1.ipynb){: .btn .btn-green } |
