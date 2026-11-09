@@ -114,6 +114,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 | Fundamentos| [Presentación](https://drive.google.com/file/d/1H0sGLkDGpLBG3-_CFpdxe1SFXlfeLulY/view?usp=drive_link){: .btn .btn-green } |
 | Grafos ML| [Sesion](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/U4_S1_Grafos_ML.ipynb){: .btn .btn-green } |
 | Grafos ML| [Lab 14](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/14_Lab_PrediccionesML.ipynb){: .btn .btn-green } |
+| Test| [](){: .btn .btn-green } |
 
 
 <!-- | Mlops | [Mlops 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/imagenes/Sesion_03_pandas.gif?raw=true){: .btn .btn-blue } |
