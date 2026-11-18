@@ -118,7 +118,7 @@ https://github.com/CienciaDatosUdea/005_CCA_Estudiantes/
 | Message Passing| [Presentación](https://drive.google.com/file/d/1MOxhAFV0iiFUqg8GWJGarf-TcjIA2Og9/view?usp=drive_link){: .btn .btn-green } |
 | Message Passing| [Sesion](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Sesiones/U4_S3_GNN_basico_parte1.ipynb){: .btn .btn-green } |
 | Entrenamiento, MACE| [Presentación](https://drive.google.com/file/d/1E2uYTeI0TqVXTHGkJpxQWrRuS0xRo3P6/view?usp=drive_link){: .btn .btn-green } |
-
+| GNN-MACE | [Lab 15](https://colab.research.google.com/github/CienciaDatosUdea/005_CCA_Estudiantes/blob/main/Laboratorios/15_Lab_GNN_MACE.ipynb){: .btn .btn-green } |
 
 
 <!-- | Mlops | [Mlops 1](https://github.com/CienciaDatosUdea/002_EstudiantesAprendizajeEstadistico/blob/main/semestre2026-1/Sesiones/imagenes/Sesion_03_pandas.gif?raw=true){: .btn .btn-blue } |
